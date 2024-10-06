@@ -32,8 +32,8 @@ const items = [
 
 function App() {
   return (
+    
     <div className="App">
-      {/* Asegúrate de pasar 'items' como prop */}
       <Menu items={items} />
     </div>
   );
